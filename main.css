@@ -1,0 +1,24 @@
+body{
+    background-color: #fff;
+    color: #222;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+div#viewport{
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+div.center{
+    margin-top: 47px;
+
+}
+div.logo{
+    padding-top: 109px; 
+
+}
+div#searchform{
+    max-width: 784px;
+}
