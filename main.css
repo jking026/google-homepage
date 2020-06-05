@@ -25,6 +25,11 @@ body{
     scroll-behavior: auto;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    background-color: #fff;
+    background-color:#fff;
     color: #222;
+    font-family: arial, sans-serif ;
+}
+
+.Nav-bar{
+    display: -ms-inline-flexbox;
 }
