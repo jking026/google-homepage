@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-KR">
 <head> <title>Google Homepage</title> 
+    <link rel="shortcut icon" href="new-google-favicon-512.webp">
     <meta charset="UTF-8"> 
     <link rel="stylesheet" href="main.css"> 
     <link rel="stylesheet" href="main.js">
 </head>
 <body>
-  <div class="Nav-bar"> 
+  <div class="Nav-bar" > 
     <div class="left-bar">
       <ul>
         <li>
@@ -17,25 +18,30 @@
         </li>
       </ul>
     </div>
+    <span class=nav-spacer"></span>
     <div class="right-bar">
       <ul>
         <li>
-          <a href="">Gmail</a>
+          <a href="">Gmail</a>s
         </li>
         <li>
           <a href="">Images</a>
         </li>
         <li>
-          <a class="google-apps-button"> <img src="google_apps_button.png" alt="google_apps" width="30px" height="30px" <!--actual size on google-->
+          <a class="google-apps-button"> <img src="google_apps_button.png" alt="google_apps" width="30px" height="30px">
           </a>
         </li>
         <li>
-          <a href="http://accounts.google.com">Sign in</a>
+          <button class="sign-in" href="http://accounts.google.com">Sign in</button>
         </li>
       </ul>
     </div>
   </div>
 <!--End of Nav-bar-->  
+<div class="main"> 
+  <div>
+    <img class="logo" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" data-atf="1" width="272" height="92">
+  </div>
   <form class="container">
       <fieldset class="searchform" type="text">
         <div class="searchform-input">
@@ -48,17 +54,6 @@
 
       </fieldset>
     </form>
-  </div>
-  <div class="main"> 
-    <div>
-      <img class="logo" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" data-atf="1" width="272" height="92">
-    </div>
-    <div id="gws-output-pages-elements-homepage_additional_languages__als">
-      <p>
-        Google offered in: <a href="">한국어</a>
-      </p>
-    </div>
-    
   </div>
 <!--End of main-->  
 </body>
