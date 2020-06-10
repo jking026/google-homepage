@@ -146,9 +146,11 @@ input  {
   width: 571px;
   height: 70px;
   text-align: center;
-  padding: 18px;
+  padding: 18px ;
   position: relative;
   margin: 0 auto;  
+ 
+  
 }
 
 .google-search-button{
@@ -159,6 +161,9 @@ input  {
     color: #5F6368;
     border-radius: 4px;
     border: 1px solid #f2f2f2;
+    margin: 11px 4px;
+    padding: 0 16px;
+    cursor: pointer;
 }
 
 .feeling-lucky-button{
@@ -169,4 +174,7 @@ input  {
   color: #5F6368;
   border-radius: 4px;
   border: 1px solid #f2f2f2;
+  margin: 11px 4px;
+  padding: 0 16px;
+  cursor: pointer;
 }
