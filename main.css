@@ -61,8 +61,7 @@ body{
     margin-left: 0;
   font: normal;
   font-size: 13px; 
-  
-  
+
 
 }
 
@@ -106,6 +105,7 @@ a {
   line-break: 28px;
   margin: 10px;
   border-color: transparent;
+  outline: none;
   
 }
 
@@ -123,6 +123,7 @@ form {
   padding-inline-start: 20px;
   padding-left: 0px;
   padding-right: 0px;
+
 }
 
 
@@ -132,6 +133,8 @@ input  {
   border: 1px solid #dfe1e5;
     border-radius: 24px ;
     background-color: transparent;
+  outline: none;
+ text-indent: 30px;
 
 }
 
@@ -164,6 +167,7 @@ input  {
     margin: 11px 4px;
     padding: 0 16px;
     cursor: pointer;
+    outline: none;  
 }
 
 .feeling-lucky-button{
@@ -177,4 +181,23 @@ input  {
   margin: 11px 4px;
   padding: 0 16px;
   cursor: pointer;
+  outline: none;
+}
+
+#offered-languages{
+  box-sizing: content-box;
+  display: block;
+  color: #28292c;
+  width: 148.683px;
+  height: 20px;
+  float: none;
+  position: static;
+  margin: 0 auto;
+  font-size: small;
+}
+
+.Korean {
+  padding: 0 3px;
+  text-decoration: underline;
+  color: blue;
 }
