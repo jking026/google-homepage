@@ -62,6 +62,7 @@ body{
   font: normal;
   font-size: 13px; 
   
+  
 
 }
 
@@ -71,10 +72,12 @@ body{
   padding-left: 30px;
   padding-right: 30px;
   align-items: center;
- 
+    
   
 }
-
+a:hover{
+  text-decoration: underline;
+}
 .nav-spacer{
   flex: 1 1 auto;
 
@@ -82,6 +85,7 @@ body{
 a {
   padding: 16px;
   text-decoration: none;
+  color: darkslategray;
 }
 
 .google-apps-button{
