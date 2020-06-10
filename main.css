@@ -83,6 +83,12 @@ a {
   padding: 16px;
 }
 
+.google-apps-button{
+  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: 528px 68px;;
+  background-position: -132px -38px;
+  opacity: .55;
+}
 
 .sign-in {
   border: 1px solid #4285f4;
@@ -107,13 +113,21 @@ a {
 
 form {
   margin: auto;
-  width: 482px;
- 
+  width: 481px;
+  padding-top: 16px;
+  padding-inline-start: 20px;
+  padding-left: 0px;
+  padding-right: 120px;
+
 
 }
-.seachform {
-  width: 100%;
+input  {
+  height: 40px;
+  width: 561px; 
+  border: 1px solid rgb(118, 118, 118);
+    border-radius: 44px ;
 
+  
 }
 
 
