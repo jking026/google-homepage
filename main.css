@@ -81,6 +81,7 @@ body{
 }
 a {
   padding: 16px;
+  text-decoration: none;
 }
 
 .google-apps-button{
