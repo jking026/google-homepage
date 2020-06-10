@@ -48,46 +48,72 @@ table {
 
 /*end of CSS reset */
 
-.body{
-  font-size: 13px;
+body{
+
+  background: #fff;
+  color: black;
+  font-family: arial,sans-serif;
+  height: 100%;
+  margin: 0;
+    margin-top: 0; 
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  font: normal;
+  font-size: 13px; 
+  
+
 }
+
+.nav-bar{
+  flex-basis: auto;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+ 
+  
+}
+
 .nav-spacer{
   flex: 1 1 auto;
+
 }
-
-.Nav-bar{
-  position: relative;
-
+a {
   padding: 16px;
 }
 
-.left-bar{
-  padding-left: 30px;
-  white-space: nowrap;
+
+.sign-in {
+  border: 1px solid #4285f4;
+  display: inline-block;
+  background-image: -webkit-linear-gradient(top,#4387fd,  #4683ea);
+   height: 32px;
+   border-radius: 2px;
+   font-weight: bold;
+   color: #fff;
+  line-break: 28px;
+  margin: 10px;
+  border-color: transparent;
   
 }
-.right-bar{
-  margin: 0;
-  display: flex;
-  float: right;
-  font-size: 13px;
-  padding-right: 30px;
-  ;
+
+.google-logo {
+  display: block;
+  margin: auto;
+  margin-top: 128px;
 
 }
 
-.sign-in{
-
+form {
+  margin: auto;
+  width: 482px;
  
-  border: 1px solid #4285f4;
-  font-weight: bold;
-  background-origin: padding-box;
-  background-image: -webkit-linear-gradient(top,#4387fd,#4683ea);
-  border-width: 0;
-  height: 32px;
-  background-clip: border-box;
-  border-radius: 2px;
-  line-height: 28px;
-  padding: 0 12px;
-  color: #fff;
+
 }
+.seachform {
+  width: 100%;
+
+}
+
+
