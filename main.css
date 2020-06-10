@@ -118,21 +118,55 @@ a {
 
 form {
   margin: auto;
-  width: 481px;
+  width: 582px;
   padding-top: 16px;
   padding-inline-start: 20px;
   padding-left: 0px;
-  padding-right: 120px;
-
-
+  padding-right: 0px;
 }
+
+
 input  {
   height: 40px;
   width: 561px; 
-  border: 1px solid rgb(118, 118, 118);
-    border-radius: 44px ;
+  border: 1px solid #dfe1e5;
+    border-radius: 24px ;
+    background-color: transparent;
 
-  
 }
 
 
+.center{
+  font-size: small  ;
+  box-sizing: content-box;
+  display: block;
+  float: none;
+  line-height: normal;
+  position: static;
+  width: 571px;
+  height: 70px;
+  text-align: center;
+  padding: 18px;
+  position: relative;
+  margin: 0 auto;  
+}
+
+.google-search-button{
+    height: 36px;
+    min-width: 5px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+}
+
+.feeling-lucky-button{
+  height: 36px;
+  min-width: 5px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  border-radius: 4px;
+  border: 1px solid #f2f2f2;
+}
