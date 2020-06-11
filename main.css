@@ -201,3 +201,28 @@ input  {
   text-decoration: underline;
   color: blue;
 }
+
+footer {
+  background: #f2f2f2;
+  line-height: 40px;
+  min-width: 980px;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+ 
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  display: block;
+
+}
+
+#footer-location-tag {
+  width: 1007x;
+  height: 35px;
+  margin-left: auto;
+  padding-left: 27px;
+  border-bottom: 1px solid #e4e4e4;
+  
+}
