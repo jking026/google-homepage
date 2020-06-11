@@ -102,10 +102,11 @@ a {
    border-radius: 2px;
    font-weight: bold;
    color: #fff;
-  line-break: 28px;
+  line-height: 28px;
   margin: 10px;
   border-color: transparent;
   outline: none;
+  cursor: pointer;
   
 }
 
@@ -208,21 +209,31 @@ footer {
   min-width: 980px;
   border-top: 1px solid #e4e4e4;
   bottom: 0;
- 
   position: fixed;
   width: 100%;
   margin: 0 auto;
   font-size: 14px;
   font-family: arial, sans-serif;
   display: block;
+  padding-left: 27px;
 
 }
 
 #footer-location-tag {
-  width: 1007x;
+  width: auto;
   height: 35px;
-  margin-left: auto;
-  padding-left: 27px;
   border-bottom: 1px solid #e4e4e4;
-  
+  margin-left: 15px;
+  text-align: left;
+  color: rgba(0,0,0,.54);
+  font-size: 15px;
+}
+
+.Left-Bottom-Nav {
+  float: left;
+}
+
+.Right-Bottom-Nav {
+  float: right;
+  padding-right: 40px;
 }
