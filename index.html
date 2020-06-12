@@ -1,81 +1,55 @@
 <!DOCTYPE html>
-<html lang="en-KR">
-<head> <title>Google Homepage</title> 
+
+<html>
+<header>
+    <link> <title>Google Homepage</title> 
     <link rel="shortcut icon" href="new-google-favicon-512.webp">
     <meta charset="UTF-8"> 
     <link rel="stylesheet" href="main.css"> 
     <link rel="stylesheet" href="main.js">
-</head>
-<body>
-  <div class="Nav-bar" > 
-    <div class="left-bar">
-      <ul>
-        <li>
-          <a href="">About</a>
-        </li>
-        <li>
-          <a href="">Store</a>
-        </li>
-      </ul>
-    </div>
-    <span class=nav-spacer"></span>
-    <div class="right-bar">
-      <ul>
-        <li>
-          <a href="">Gmail</a>s
-        </li>
-        <li>
-          <a href="">Images</a>
-        </li>
-        <li>
-          <a class="google-apps-button"> <img src="google_apps_button.png" alt="google_apps" width="30px" height="30px">
-          </a>
-        </li>
-        <li>
-          <button class="sign-in" href="http://accounts.google.com">Sign in</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-<!--End of Nav-bar-->  
-<div class="main"> 
-  <div>
-    <img class="logo" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="padding-top:109px" data-atf="1" width="272" height="92">
-  </div>
-  <form class="container">
-      <fieldset class="searchform" type="text">
-        <div class="searchform-input">
-          <input class="box" type="text" name="search">
-        </div>
-        <div class="center">
-          <button type="button">Google Search</button>
-          <button type="button">I'm Feeling Lucky</button>
-        </div>
-
-      </fieldset>
-    </form>
-  </div>
+</header>    
+<body> 
+     <div class="nav-bar">
+        <a href="">About</a>
+        <a href="">Store</a>
+        <span class="nav-spacer"></span>
+        <a href="">Gmail</a>
+        <a href="">Images</a>  
+        <a class="google-apps-button" href="https://www.google.co.kr/intl/en/about/products?tab=wh" title="Google apps" aria-expanded="false" role="button" tabindex="0"></a>
+        <button class="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.com/role="button>Sign in</button>
+     </div>    
+<!--End of the Navigation bar-->    
+     <img class="google-logo" src="photos.jpg/googlelogo_color_272x92dp.png">
+    
+     <form>
+        <input class="searchform"> 
+     </form>
+   <div class="center">
+      <button class="google-search-button" type="button">Google Search</button>
+      <button class="feeling-lucky-button" type="button">I'm Feeling Lucky</button>
+   </div>
+   <div id="offered-languages">
+      Google offered in:   
+         <a class="Korean" href="https://www.google.com/setprefs?sig=0_8DvUpDnGrP-R9NvBqh6t8TfjaZg%3D&amp;hl=ko&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwia1qaehvfpAhWsF6YKHUtgAlMQ2ZgBCA4">한국어</a>
+   </div>
 <!--End of main-->  
+
 </body>
 <footer>
-  <div id="footerNav1">
-    <span class="location">Seoul,  South Korea</span>
-  </div>
-  <div id="footerNav2">
-    <div class="Left_Bottom_Nav">
-      <a href="">Business</a>
-      <a href="">Advertising</a>
-      <a href="">About</a>
-      <a href="">How Sh*t works</a>
-    </div>
-  <br>
-    <div class="Right_Bottom_Nav">
-      <a href="">Privacy</a>
-      <a href="">Terms</a>
-      <a href="">Settings</a>
-
-    </div>
-  </div>
+   <div id="footer-location-tag">
+      <span class="location">Seoul,  South Korea</span></div>
+  
+      <span class="Left-Bottom-Nav">
+         <a href="">Advertising</a>
+         <a href="">Business</a>
+        <a href="">About</a>
+        <a href="">How Sh*t works</a>
+      </span>
+      <span class="Right-Bottom-Nav">
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+        <a href="">Settings</a>
+      </span>
+    </div> 
 </footer>
-
 </html>
